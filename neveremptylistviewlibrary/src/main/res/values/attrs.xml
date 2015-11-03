@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NeverEmptyListView">
+        <attr name="holderImageBackground" format="reference" />
+        <attr name="holderImageSize" format="dimension" />
+        <attr name="holderTextRightLeftMargin" format="dimension" />
+        <attr name="holderTextTopMargin" format="dimension" />
+        <attr name="holderTextFontSize" format="dimension" />
+        <attr name="holderText" format="string"/>
+        <attr name="holderTextColor" format="color" />
+        <attr name="holderBackgroundColor" format="color" />
+        <attr name="listviewDivider" format="reference|color" />
+        <attr name="listviewDividerHeight" format="dimension" />
+        <attr name="listviewFooterDividersEnabled" format="boolean" />
+        <attr name="listviewHeaderDividersEnabled" format="boolean" />
+        <attr name="listviewCacheColorHint" format="color" />
+        <attr name="listviewDrawSelectorOnTop" format="boolean" />
+        <attr name="listviewScrollingCache" format="boolean" />
+        <attr name="listviewFastScrollEnabled" format="boolean" />
+        <attr name="listviewChoiceMode" format="enum">
+            <enum name="none" value="0"/>
+            <enum name="singleChoice" value="1"/>
+            <enum name="multipleChoice" value="2"/>
+            <enum name="multipleChoiceModal" value="3"/>
+        </attr>
+        <attr name="listviewListSelector" format="reference|color" />
+        <attr name="listviewTextFilterEnabled" format="boolean" />
+        <attr name="listviewSmoothScrollbar" format="boolean" />
+        <attr name="listviewStackFromBottom" format="boolean" />
+        <attr name="listviewTranscriptMode" format="enum">
+            <enum name="disabled" value="0"/>
+            <enum name="normal" value="1"/>
+            <enum name="alwaysScroll" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

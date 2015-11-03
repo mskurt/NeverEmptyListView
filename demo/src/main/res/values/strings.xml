@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NeverEmptyListView</string>
+    <string name="holder_text">This listview is empty and you are using the holder view instead of blank space. You can click me.</string>
+    <string name="toast_message_text">Clicked on holder</string>
+</resources>

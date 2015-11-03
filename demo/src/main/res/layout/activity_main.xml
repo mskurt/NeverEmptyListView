@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         custom:holderTextTopMargin="30dp"
         custom:holderBackgroundColor="@color/holderBackgroundColor"
-        custom:holderTextFontSize="6sp"
+        custom:holderTextFontSize="9sp"
         custom:holderTextColor="@color/holderTextColor"
         custom:holderText="@string/holder_text"
         custom:holderImageBackground="@drawable/sad"/>

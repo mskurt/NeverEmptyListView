@@ -17,10 +17,10 @@ public class MainActivity extends Activity {
 
         //Create an empty adapter
         String[] values={};
-        final ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, android.R.id.text1, values);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1, android.R.id.text1, values);
 
         //Set NeverEmptyListView's adapter
-        final NeverEmptyListView neverEmptyListView=(NeverEmptyListView)findViewById(R.id.listview);
+        NeverEmptyListView neverEmptyListView=(NeverEmptyListView)findViewById(R.id.listview);
         neverEmptyListView.setAdapter(adapter);
 
         //Set a click listener to holder

@@ -321,6 +321,14 @@ public class NeverEmptyListView extends RelativeLayout{
         holderText.setTextColor(color);
     }
 
+    public void setHolderTextFontSize(int unit,float size){
+        //Units:
+        //TypedValue.COMPLEX_UNIT_PX   //Pixels
+        //TypedValue.COMPLEX_UNIT_SP   //Scaled Pixels
+        //TypedValue.COMPLEX_UNIT_DIP  //Device Independent Pixels
+        holderText.setTextSize(unit,size);
+    }
+
     public void setHolderTextTypeFace(Typeface typeFace){
         holderText.setTypeface(typeFace);
     }

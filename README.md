@@ -113,7 +113,7 @@ If you want to use listview's basic attributes in xml, you should use it with **
     custom:listviewTranscriptMode
 
 ## Developed By
-Sedat Kurt - mskurt.net - sedat@4pps.co
+Sedat Kurt - www.mskurt.net - sedat@4pps.co
 
 
 

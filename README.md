@@ -6,7 +6,16 @@ This custom listview basically shows a holder view when it's adapter is empty. F
 
 ## Usage
 
-1)First of all, add dependency `compile 'com.github.mskurt:NeverEmptyListView:v1.0.1'` in your **build.gradle**.
+1)First of all, add below in your **build.gradle** at the end of repositories:
+    
+    repositories {
+        // ...
+        maven { url "https://jitpack.io" }
+    }
+    
+Add below dependency also.
+
+    compile 'com.github.mskurt:NeverEmptyListView:v1.0.1' 
 
 2)Add the view to your layout xml. You must use features which are belong to NeverEmptyListView with `custom` namespace. It is recommended to use **square size image** for **holderImageBackground**. 
 
@@ -60,7 +69,7 @@ neverEmptyListView.notifyDataSetChanged(YOUR_ADAPTER);
 ## Holder View Customizing
 Holder view is mostly customizable. You can use below feature list.
 
-![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/holder_features.png?raw=true)
+![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/preview.png?raw=true)
 
     holderImageBackground : color or drawable reference
     holderImageSize : dimension in dp or px

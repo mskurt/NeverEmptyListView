@@ -66,6 +66,12 @@ neverEmptyListView.setHolderClickListener(new View.OnClickListener() {
 neverEmptyListView.notifyDataSetChanged(YOUR_ADAPTER);
 ```
 
+6)If you need the listview at runtime (NeverEmptyListView is a custom view which contains a listview), you can get it like below.
+
+``` java
+neverEmptyListView.getListview();
+```
+
 ## Holder View Customizing
 Holder view is mostly customizable. You can use below feature list.
 

@@ -1,6 +1,7 @@
 # NeverEmptyListView
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-NeverEmptyListView-green.svg?style=true)](https://android-arsenal.com/details/1/2734)
 
-This custom listview basically shows a holder view when it's adapter is empty. For example, you may fetch list datas from network and refresh your adapter with coming data. If the data is empty, your listview shows a huge blank space. With this custom listview, you can show a holder view instead of blank space and your design looks prettier.  
+This custom listview basically shows a holder view when it's adapter is empty. For example, you may fetch list datas from network and refresh your adapter with coming data. If the data is empty, your listview shows a huge blank space. With this custom listview, you can show a holder view instead of blank space and your design looks prettier.(Your minimum sdk should be 15 and higher)
 
 ![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/preview.png?raw=true)
 
@@ -71,6 +72,16 @@ neverEmptyListView.notifyDataSetChanged(YOUR_ADAPTER);
 ``` java
 neverEmptyListView.getListview();
 ```
+For example, you can get the listview and setOnItemClickListener to it.
+
+``` java
+neverEmptyListView.getListview().setOnItemClickListener(new AdapterView.OnItemClickListener() {
+     @Override
+     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                
+    }
+});
+```
 
 ## Holder View Customizing
 Holder view is mostly customizable. You can use below feature list.
@@ -121,5 +132,17 @@ If you want to use listview's basic attributes in xml, you should use it with **
 ## Developed By
 Sedat Kurt - www.mskurt.net - sedat@4pps.co
 
-
+    Copyright 2015 Sedat Kurt.
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+       http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 

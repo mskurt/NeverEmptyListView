@@ -132,9 +132,6 @@ If you want to use listview's basic attributes in xml, you should use it with **
 ## Developed By
 Sedat Kurt - www.mskurt.net - sedat@4pps.co
 
-## Licence
-
-    Copyright 2015 Sedat Kurt.
     
 ## [Licence](/LICENCE.md)    
     

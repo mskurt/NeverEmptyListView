@@ -75,7 +75,7 @@ neverEmptyListView.getListview();
 ## Holder View Customizing
 Holder view is mostly customizable. You can use below feature list.
 
-![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/preview.png?raw=true)
+![alt tag](https://github.com/mhmtsdtkrt/NeverEmptyListView/blob/master/demo/src/main/res/preview/holder_features.png?raw=true)
 
     holderImageBackground : color or drawable reference
     holderImageSize : dimension in dp or px

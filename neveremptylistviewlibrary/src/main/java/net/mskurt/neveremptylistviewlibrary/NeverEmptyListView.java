@@ -281,6 +281,10 @@ public class NeverEmptyListView extends RelativeLayout{
         setImageViewBackground(holderImage, drawableId);
         holderImage.setVisibility(View.VISIBLE);
     }
+    public void setHolderImageBackground(Drawable drawable){
+        setImageViewBackground(holderImage, drawable);
+        holderImage.setVisibility(View.VISIBLE);
+    }
 
     public void setHolderImageSize(int sizePixel){
         if(sizePixel<=0){
